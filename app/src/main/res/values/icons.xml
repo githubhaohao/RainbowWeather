@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Font Awesome-->
+    <string name="clock_icon">&#xf017;</string>
+    <string name="water_icon">&#xf043;</string>
+    <string name="wind_icon">&#xf038;</string>
+
+</resources>

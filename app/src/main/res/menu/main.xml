@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_location"
+        android:icon="@drawable/ic_add_location_black_24dp"
+        android:title="Mark unread"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_city"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Copy"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_trend"
+        android:icon="@drawable/ic_trending_up_black_24dp"
+        android:title="Google+"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_feedback"
+        android:icon="@drawable/ic_feedback_black_24dp"
+        android:title="Facebook"
+        app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:elevation="4dp"
+    android:gravity="center_vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp">
+        <RelativeLayout
+            android:id="@+id/ly_page1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_left_select">
+            <TextView
+                android:id="@+id/tv_page1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="天气"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/ly_page2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_right">
+            <TextView
+                android:id="@+id/tv_page2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="生活"
+                android:textColor="#435356" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
