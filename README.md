@@ -1,5 +1,5 @@
 # RainbowWeather
-一个精简的天气 APP 。具有定位、城市查询以及温度走势分析功能。
+一个精简的天气 APP 。MVP 架构，具有定位、城市查询以及温度走势分析功能。
 
 ## APK
 [download](https://github.com/githubhaohao/RainbowWeather/raw/master/app.apk)
